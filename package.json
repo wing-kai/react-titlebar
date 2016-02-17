@@ -1,0 +1,42 @@
+{
+  "name": "react-titlebar",
+  "version": "0.1.0",
+  "description": "os x titlebar",
+  "main": "index.js",
+  "scripts": {
+    "test": "electron ./asset/main.js",
+    "build": "rm -rf ./asset ./lib; gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wing-kai/react-titlebar.git"
+  },
+  "keywords": [
+    "react",
+    "electron",
+    "titlebar",
+    "osx"
+  ],
+  "author": "wing-kai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wing-kai/react-titlebar/issues"
+  },
+  "homepage": "https://github.com/wing-kai/react-titlebar#readme",
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-es2015-destructuring": "^6.5.0",
+    "babel-plugin-transform-es2015-spread": "^6.5.2",
+    "babel-plugin-transform-strict-mode": "^6.5.2",
+    "babel-preset-react": "^6.5.0",
+    "electron": "^0.36.7",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2"
+  }
+}
