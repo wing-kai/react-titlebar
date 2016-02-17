@@ -20,12 +20,12 @@ const Body = React.createClass({
 
 # Properties
 
-## blur *`boolean`*
+### blur *`boolean`*
  - false *default*
  - true
    ![](./screenshot/blur_true.png)
 
-## size *`string`* 
+### size *`string`* 
 
  - normal *default*
  - inset
@@ -36,7 +36,7 @@ const Body = React.createClass({
  
    ![](./screenshot/size_center.png)
 
-## theme *`string`*
+### theme *`string`*
 
  - default *default*
 
@@ -44,7 +44,7 @@ const Body = React.createClass({
    
    ![](./screenshot/theme_inverse.png)
 
-## fullScreen *`boolean`*
+### fullScreen *`boolean`*
 
  - false *default*
 
@@ -53,7 +53,7 @@ const Body = React.createClass({
    ![](./screenshot/fullscreen_true.png)
  
 
-## disabled *`boolean`*
+### disabled *`boolean`*
 
  - false *default*
  
@@ -61,7 +61,7 @@ const Body = React.createClass({
  
    ![](./screenshot/disabled_true.png)
 
-## lockBtn *`Array`*
+### lockBtn *`Array`*
 
  - `[]`  *default*
    - close
@@ -73,7 +73,7 @@ const Body = React.createClass({
    
    ![](./screenshot/lockbtn_fullscreen.png)
    
-## Handler
+### Handler
 
 `<TitleBar onClose={this.onClose} />`
  - onClose
